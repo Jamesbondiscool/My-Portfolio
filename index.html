@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="responsiv.css">
+    <link rel="stylesheet" href="folio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      
+    <title>My PortFolio</title>
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <!-- /Page Loader -->
+
+
+    <!-- Particules -->
+    <div class="bg-circles">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+        <div class="circle4"></div>
+
+    </div>
+    <!-- /Particules -->
+
+
+    <!-- Overlay -->
+    <div class="overlay"></div>
+    <!-- /Overlay -->
+
+
+    <!-- Main -->
+    <div class="main hidden">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="row flex-end">
+                    <button class="nav-toggler" type="button">
+                        <span></span>
+                    </button>
+                    <nav class="nav">
+                        <div class="nav-inner">
+                            <ul>
+                                <li>
+                                    <a href="#home" class="nav-item link-item">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#about" class="nav-item link-item">About</a>
+                                </li>
+                                <li>
+                                    <a href="#portfolio" class="nav-item link-item">Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="#contact" class="nav-item link-item">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- /Header -->
+
+
+        <!-- Home -->
+        <section class="home-section align-items-center" id="home" data-tilt>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="home-text">
+                        <p>Hi , I'm</p>
+                        <h1>James Olamilekan</h1>
+                        <h2>An Aspiring Software Developer</h2>
+                        <a href="#about" class="btn link-item">More About Me</a>
+                        <a href="#portfolio" class="btn link-item">Portfolio</a>
+                    </div>
+                    <div class="home-img">
+                        <div class="img-box">
+                        <img src="pfp1.jpg" id="profileImg" alt="">
+                        <div class="layer"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Home -->
+
+        <!-- About -->
+        <section class="about-section sec-padding " id="about" data-tilt>
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>About Me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-img">
+                        <div class="img-box">
+                            <img src="abt.png" alt="">
+                            <div class="layer"></div>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>
+                            Hello, my name is Olamilekan James aka Jamesbond :),I am a web developer at a very young age, an otaku in anime and gaming and a passionate of technology, I love learning new things and sharing my knowledge with others.That's all I have to say about me, you can contact me to get to know me better. See you soon...
+                        </p>
+                        <h3>Skills</h3>
+                        <div class="skills">
+                            <div class="skill-item">HTML</div>
+                            <div class="skill-item">CSS</div>
+                            <div class="skill-item">JavaScript</div>
+                            <div class="skill-item">Python</div>
+                        </div>
+                        <div class="about-tabs">
+                            <button class="tab-item active" type="button" data-target="#education">Education</button>
+                            <button class="tab-item" type="button" data-target="#experience">Experience</button>
+                        </div>
+                        <!-- Education -->
+                        <div class="tab-content active" id="education">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2018-2022</span>
+                                    <h4>High School - <span>Lyncrest International College</span></h4>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2020-2023</span>
+                                    <h4>Graduate - <span>Free Code Camp</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Education -->
+
+                        <!-- Experience -->
+                        <div class="tab-content" id="experience">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2021</span>
+                                    <h4>Student - <span>Unknown</span></h4>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2022</span>
+                                    <h4>Freelance UI Designer - <span>Self Educated</span></h4>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2022</span>
+                                    <h4>Freelance Software Developer - <span>Self Educated</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Experience -->
+
+                        <a href="https://www.freecodecamp.org/certification/Jamesbond180507/responsive-web-design" target="_blank" class="btn">Download Certificate</a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /About -->
+
+        <!-- Portfolio -->
+        <section class="portfolio-section sec-padding" id="portfolio" data-tilt>
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Recent Work</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Portfolio items -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="folio.png" alt="Portfolio img">
+                        </div>
+                        <h3 class="portfolio-item-title">Analog Clock</h3>
+                        <button class="btn view-project-btn" type="button">View Project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>This was my first project using html and css style sheet (Beginner)</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>09 February 2023</span></li>
+                                    <li>Technologies Used - <span>HTML and CSS</span></li>
+                                    <li>View Live - <span><a target="_blank" href="https://github.com/Jamesbondiscool/Analog-Watch">www.github.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="folio2.png" alt="Portfolio img">
+                        </div>
+                        <h3 class="portfolio-item-title">Digital Clock</h3>
+                        <button class="btn view-project-btn" type="button">View Project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>My Second project</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>20 January 2023</span></li>
+                                    <li>Technologies Used - <span>HTML, CSS, JavaScript</span></li>
+                                    <li>View Live - <span><a target="_blank" href="https://github.com/Jamesbondiscool/Digital-Clock">www.github.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="folio3.png" alt="Portfolio img">
+                        </div>
+                        <h3 class="portfolio-item-title">Hello World</h3>
+                        <button class="btn view-project-btn" type="button">View Project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>Simple basic html code</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>20 January 2023</span></li>
+                                    <li>Technologies Used - <span>HTML</span></li>
+                                    <li>View Live - <span><a target="_blank" href="https://github.com/Jamesbondiscool/Hello-World">www.github.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="folio4.png" alt="Portfolio img">
+                        </div>
+                        <h3 class="portfolio-item-title">A Penguin</h3>
+                        <button class="btn view-project-btn" type="button">View Project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>An animated penguin waving, isn't she cute :)</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>08 February 2023</span></li>
+                                    <li>Technologies Used - <span>HTML, Css, Package-json</span></li>
+                                    <li>View Live - <span><a target="_blank" href="https://github.com/Jamesbondiscool/A-Penguin/">www.github.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="folio5.png" alt="Portfolio img">
+                        </div>
+                        <h3 class="portfolio-item-title">To-do list App</h3>
+                        <button class="btn view-project-btn" type="button">View Project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>An app that stores a list of things that one wants to get done or that need to get done. Proud of myself on this one</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>30 May 2022</span></li>
+                                    <li>Technologies Used - <span>HTML, CSS</span></li>
+                                    <li>View Live - <span><a target="_blank" href="https://github.com/Jamesbondiscool/To-do-List-App">www.github.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="folio6.png" alt="Portfolio img">
+                        </div>
+                        <h3 class="portfolio-item-title">Cafe Menu</h3>
+                        <button class="btn view-project-btn" type="button">View Project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>Discover the Perfect Blend of Coffee and Comfort at Our Cafe</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>09 February 2023</span></li>
+                                    <li>Technologies Used - <span>HTML, CSS</span></li>
+                                    <li>View Live - <span><a target="_blank" href="https://github.com/Jamesbondiscool/Cafe-Menu">www.github.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- /Portfolio items -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="folio7.png" alt="Portfolio img">
+                        </div>
+                        <h3 class="portfolio-item-title">Gadget World</h3>
+                        <button class="btn view-project-btn" type="button">View Project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>A gadget and electronicS store website</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>07 March 2023</span></li>
+                                    <li>Technologies Used - <span>HTML, CSS, JavaScript</span></li>
+                                    <li>View Live - <span><a target="_blank" href="https://github.com/Jamesbondiscool/Gadget-World/">www.github.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    
+                    </div>
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="folio8.png" alt="Portfolio img">
+                            </div>
+                            <h3 class="portfolio-item-title">A Lion</h3>
+                            <button class="btn view-project-btn" type="button">View Project</button>
+                            <div class="portfolio-item-details">
+                                <div class="description">
+                                    <p>An animated lion that can say hello in several languages</p>
+                                </div>
+                                <div class="general-info">
+                                    <ul>
+                                        <li>Created - <span>27 January 2023</span></li>
+                                        <li>Technologies Used - <span>HTML, CSS, JavaScript</span></li>
+                                        <li>View Live - <span><a target="_blank" href="https://github.com/Jamesbondiscool/A-Lion">www.github.com</a></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        
+                        </div>
+                            <div class="portfolio-item">
+                                <div class="portfolio-item-thumbnail">
+                                    <img src="folio9.png" alt="Portfolio img">
+                                </div>
+                                <h3 class="portfolio-item-title">How To Cook Ramen</h3>
+                                <button class="btn view-project-btn" type="button">View Project</button>
+                                <div class="portfolio-item-details">
+                                    <div class="description">
+                                        <p>Ramen step-by-step cooking instructions</p>
+                                    </div>
+                                    <div class="general-info">
+                                        <ul>
+                                            <li>Created - <span>24 February 2023</span></li>
+                                            <li>Technologies Used - <span>HTML, CSS</span></li>
+                                            <li>View Live - <span><a target="_blank" href="https://github.com/Jamesbondiscool/How-To-Cook-Ramen">www.github.com</a></span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                                <div class="portfolio-item">
+                                    <div class="portfolio-item-thumbnail">
+                                        <img src="folio10.png" alt="Portfolio img">
+                                    </div>
+                                    <h3 class="portfolio-item-title">IOS Calculator</h3>
+                                    <button class="btn view-project-btn" type="button">View Project</button>
+                                    <div class="portfolio-item-details">
+                                        <div class="description">
+                                            <p>An IOS themed calculator that can solve basic operations</p>
+                                        </div>
+                                        <div class="general-info">
+                                            <ul>
+                                                <li>Created - <span>29 March 2023</span></li>
+                                                <li>Technologies Used - <span>HTML, CSS, JavaScript</span></li>
+                                                <li>View Live - <span><a target="_blank" href="https://github.com/Jamesbondiscool/IOS-CALCULATOR">www.github.com</a></span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                    <div class="portfolio-item">
+                                        <div class="portfolio-item-thumbnail">
+                                            <img src="folio11.png" alt="Portfolio img">
+                                        </div>
+                                        <h3 class="portfolio-item-title">My Portfolio</h3>
+                                        <button class="btn view-project-btn" type="button">View Project</button>
+                                        <div class="portfolio-item-details">
+                                            <div class="description">
+                                                <p>All my projects and about me is in my portfolio</p>
+                                            </div>
+                                            <div class="general-info">
+                                                <ul>
+                                                    <li>Created - <span>31 March 2023</span></li>
+                                                    <li>Technologies Used - <span>HTML, CSS, JavaScript</span></li>
+                                                    <li>View Live - <span><a target="_blank" href="https://github.com/Jamesbondiscool/My-Portfolio">www.github.com</a></span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                        <div class="portfolio-item">
+                                            <div class="portfolio-item-thumbnail">
+                                                <img src="folio12.png" alt="Portfolio img">
+                                            </div>
+                                            <h3 class="portfolio-item-title">A Phonebook</h3>
+                                            <button class="btn view-project-btn" type="button">View Project</button>
+                                            <div class="portfolio-item-details">
+                                                <div class="description">
+                                                    <p>An hotline bling themed phonebook that plays the song anytime a contact is added</p>
+                                                </div>
+                                                <div class="general-info">
+                                                    <ul>
+                                                        <li>Created - <span>28 March 2023</span></li>
+                                                        <li>Technologies Used - <span>HTML, CSS, JavaScript, Python, Package-json,</span></li>
+                                                        <li>View Live - <span><a target="_blank" href="https://github.com/Jamesbondiscool/A-PhoneBook">www.github.com</a></span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+
+                                                <div class="portfolio-item">
+                                                    <div class="portfolio-item-thumbnail">
+                                                        <img src="folio13.png" alt="Portfolio img">
+                                                    </div>
+                                                    <h3 class="portfolio-item-title">A Survey form</h3>
+                                                    <button class="btn view-project-btn" type="button">View Project</button>
+                                                    <div class="portfolio-item-details">
+                                                        <div class="description">
+                                                            <p>a survey form that ask people to contribute what can help me improve my code</p>
+                                                        </div>
+                                                        <div class="general-info">
+                                                            <ul>
+                                                                <li>Created - <span>31 March 2023</span></li>
+                                                                <li>Technologies Used - <span>HTML, CSS</span></li>
+                                                                <li>View Live - <span><a target="_blank" href="https://github.com/Jamesbondiscool/A-Survey-Form">www.github.com</a></span></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                
+                                                </div>
+
+                                                    <div class="portfolio-item">
+                                                        <div class="portfolio-item-thumbnail">
+                                                            <img src="folio14.png" alt="Portfolio img">
+                                                        </div>
+                                                        <h3 class="portfolio-item-title">Pig Latin Generator</h3>
+                                                        <button class="btn view-project-btn" type="button">View Project</button>
+                                                        <div class="portfolio-item-details">
+                                                            <div class="description">
+                                                                <p>an english to pig latin translator.....Oink!</p>
+                                                            </div>
+                                                            <div class="general-info">
+                                                                <ul>
+                                                                    <li>Created - <span>31 March 2023</span></li>
+                                                                    <li>Technologies Used - <span>HTML, CSS, Javascript, Gitignore</span></li>
+                                                                    <li>View Live - <span><a target="_blank" href="https://github.com/Jamesbondiscool/Pig-Latin-Generator">www.github.com</a></span></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    
+                                                    </div>
+
+                                                    <div class="portfolio-item">
+                                                        <div class="portfolio-item-thumbnail">
+                                                            <img src="folio15.png" alt="Portfolio img">
+                                                        </div>
+                                                        <h3 class="portfolio-item-title">Product Landing Page</h3>
+                                                        <button class="btn view-project-btn" type="button">View Project</button>
+                                                        <div class="portfolio-item-details">
+                                                            <div class="description">
+                                                                <p>A website dedicated to the latest games and  games shopping</p>
+                                                            </div>
+                                                            <div class="general-info">
+                                                                <ul>
+                                                                    <li>Created - <span>31 March 2023</span></li>
+                                                                    <li>Technologies Used - <span>HTML, CSS, Javascript</span></li>
+                                                                    <li>View Live - <span><a target="_blank" href="https://github.com/Jamesbondiscool/Product-Landing-Page">www.github.com</a></span></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    
+                                                    </div>
+
+                                                    <div class="portfolio-item">
+                                                        <div class="portfolio-item-thumbnail">
+                                                            <img src="folio16.png" alt="Portfolio img">
+                                                        </div>
+                                                        <h3 class="portfolio-item-title">My Restaurant</h3>
+                                                        <button class="btn view-project-btn" type="button">View Project</button>
+                                                        <div class="portfolio-item-details">
+                                                            <div class="description">
+                                                                <p>I made my mom a Restaurant website</p>
+                                                            </div>
+                                                            <div class="general-info">
+                                                                <ul>
+                                                                    <li>Created - <span>03 April 2023</span></li>
+                                                                    <li>Technologies Used - <span>HTML, CSS, JavaScript</span></li>
+                                                                    <li>View Live - <span><a target="_blank" href="https://github.com/Jamesbondiscool/A-Restaurant">www.github.com</a></span></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                            
+                                                 
+                                                
+                        
+                        
+                    
+            </div>                            
+              </section>
+
+        <!-- /Portfolio -->
+
+        <!-- Contact -->
+        <section class="contact-section sec-padding" id="contact" data-tilt>
+            <div class="container">
+                <div class="column">
+                    <div class="section-title">
+                        <h2>Contact Me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-form">
+                        <form action="https://formsubmit.co/jamesbond180507@gmail.com" method="POST">
+                            <div class="row">
+                                <div class="input-group">
+                                    <input type="text" name="name" placeholder="Name" required class="input-control">
+                                </div>
+                                <div class="input-group">
+                                    <input type="email" name="email" placeholder="Email" required class="input-control">
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" name="_subject" placeholder="Subject" required class="input-control">
+                                </div>
+                                <div class="input-group">
+                                    <textarea name="message" placeholder="Message" class="input-control" required></textarea>
+                                </div>
+                                <div class="submit-btn">
+                                    <button type="submit" class="btn">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <h3>Email</h3>
+                            <p>jamesbond180507@gmail.com</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Phone</h3>
+                            <p>09061960464</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Follow Me</h3>
+                            <div class="social-links">
+                                <a href="https://web.facebook.com/profile.php?id=100086493057290" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/olamilekanjames8/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://github.com/Jamesbondiscool" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/olamilekan-james-450005258/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Contact -->
+
+
+
+
+
+
+    </div>
+
+
+
+    <!-- /Main -->
+
+    <!-- Portfolio item details popup -->
+    <div class="portfolio-popup" >
+        <div class="pp-inner" >
+            <div class="pp-content" data-tilt>
+                <div class="pp-header">
+                    <button class="btn pp-close" type="button">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </button>
+                    <div class="pp-thumbnail">
+                        <img src="img/folio.jpg" alt="">
+                    </div>
+                    <h3></h3>
+                </div>
+                <div class="pp-body">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Portfolio item details popup -->
+
+
+    <script src="folio2.js"></script>
+    <script src="folio.js"></script>
+</body>
+</html>
